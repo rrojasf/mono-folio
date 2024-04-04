@@ -1,0 +1,45 @@
+# Contributing
+
+Before contributing to this repository, please review the contribution guide below.
+
+## Branch naming
+
+Branch names should follow the following format:
+
+- `<category>/<issue-ticket-number>/<feature-name>`
+
+Categories include:
+
+- `feat` - a new feature is introduced with the changes
+- `fix` - a bug fix has occurred
+- `chore` - Maintenance (for example updating dependencies) / Refactor (code that neither fixes a bug nor adds a feature)
+- `style` – changes that do not affect the meaning of the code, likely related to code formatting such as white-space, missing semi-colons, and so on.
+- `test` – including new or correcting previous tests
+- `docs` - Documentation (updates to documentation such as a the README or other markdown files) / Storybook stories for components
+- `revert` – reverts a previous commit
+
+For a full list, see the [guide](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) below in the next section.
+
+## Commit messages
+
+See [this guide](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) for how to write good commit messages.
+
+## Pull request process
+
+1. When opening a PR, please remember to fill out the pull request template in its entirety.
+2. Please keep it simple. Created PRs should involve `less than 10 files changed`. If possible, split the PR in smaller ones so it won't take too much time from Reviewers. There is no harm in creating more than one PR per issue.
+3. Make use of appropriate labels for your PR:
+
+- `Ready for Review` - PR is ready for review
+- `In QA` - PR is in QA
+- `Ready for Re-Review` - PR is ready for re-review after changes have been made
+- `Ready to Merge` - PR is ready to merge
+
+4. A PR requires at least one approval before being able to merge
+5. Once a PR is approved, it should be merged by the author of the PR. You can make use of the auto-merge feature if you wish.
+6. Squash and merge is used by default. Make sure to update the commit message so that it doesn't just include the PR template.
+7. Update the README.md with details of changes if applicable.
+
+## Coding standards
+
+Please try your best to learn and understand the coding standards of the project. Our standards are a living document and will change over time. Please raise questions or concerns with the team so that we can improve our standards over time.
